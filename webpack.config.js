@@ -44,14 +44,6 @@ const config = {
                         ignore: ["**/index.*"]
                     },
                     to: "."
-                },
-                {
-                    from: './_headers',
-                    globOptions: {
-                        dot: true,
-                        gitignore: true
-                    },
-                    to: "."
                 }
             ]
         })
