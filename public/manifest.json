@@ -1,0 +1,32 @@
+{
+    "manifestVersion": "0.1",
+    "version": "1.0.0",
+    "id": "kissgroup-eligibilator-wda",
+    "packageName": "io.wazo.wda.kissgroup-eligibilator-wda",
+    "productType": "app",
+    "name" : {
+      "short": "Eligibilator",
+      "full": "Eligibilator"
+    },
+    "developer": {
+      "name": "MULLER Franck"
+    },
+    "description": {
+      "short": "Affichage de l'application d'éligibilité Kissgroup",
+      "full": "Affichage de l'application d'éligibilité Kissgroup"
+    },
+    "icons": {
+      "color": "https://avatars.githubusercontent.com/u/68688703?s=200&v=4"
+    },
+    "staticTabs": [
+      {
+        "entityId": "kiss-tab",
+        "context": [
+          "sidebarTab"
+        ], 
+        "name": "Kisslink",
+        "contentUrl": "https://eligibilitor.kisslink.kissgroup.io",
+        "icon": "./img/icon.png"
+      }
+    ]
+  }
